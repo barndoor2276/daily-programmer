@@ -1,0 +1,26 @@
+{
+  "name": "daily-programmer",
+  "version": "1.0.0",
+  "description": "reddit/r/dailyprogrammer",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "ts-node --transpile-only node_modules/jasmine/bin/jasmine --config=config/jasmine/jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barndoor2276/daily-programmer.git"
+  },
+  "author": "bernard@berganmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barndoor2276/daily-programmer/issues"
+  },
+  "homepage": "https://github.com/barndoor2276/daily-programmer#readme",
+  "devDependencies": {
+    "@types/jasmine": "3.8.1",
+    "@types/node": "16.4.0",
+    "jasmine": "3.8.0",
+    "ts-node": "10.1.0",
+    "typescript": "4.3.5"
+  }
+}
